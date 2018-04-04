@@ -111,36 +111,64 @@
 
 //type conversion
 //number to string
+// let val;
+// val = String(5);
+// val = String(4+4);
+// //bool to string
+// val = String(true);
+// //date to string
+// val = String(new Date());
+// //array to string
+// val = String([1,2,3,4]);
+// //can also use .toString()
+// val = (88).toString();
+
+// //string to number
+// val = Number('5');
+// val = Number(true);
+// val = Number(false);
+// val = Number(null);
+// val = Number('Hello');
+// //can also use parseInt();
+// val = parseInt('100.30');//no decimals
+// val = parseFloat('100.30');//decimals
+
+// // console.log(val);
+// // console.log(typeof val);
+// // // console.log(val.length);
+// // console.log(val.toFixed());
+
+// //type coercion
+// const val1 = String(5);
+// const val2 = 6;
+// const sum = Number(val1 + val2);
+// console.log(sum);
+// console.log(typeof sum);
+
+const num1 = 100;
+const num2 = 50;
 let val;
-val = String(5);
-val = String(4+4);
-//bool to string
-val = String(true);
-//date to string
-val = String(new Date());
-//array to string
-val = String([1,2,3,4]);
-//can also use .toString()
-val = (88).toString();
 
-//string to number
-val = Number('5');
-val = Number(true);
-val = Number(false);
-val = Number(null);
-val = Number('Hello');
-//can also use parseInt();
-val = parseInt('100.30');//no decimals
-val = parseFloat('100.30');//decimals
+//simple math with numbers
+val = num1 + num2;
+val = num1 * num2;
+val = num1 - num2;
+val = num1 / num2;
+val = num1 % num2;
 
-// console.log(val);
-// console.log(typeof val);
-// // console.log(val.length);
-// console.log(val.toFixed());
+//Math Object
+val = Math.PI;//pi
+val = Math.E;//Euler's num
+val = Math.round(2.8);//round
+val = Math.ceil(2.4);//round up
+val = Math.floor(2.9);//round down
+val = Math.sqrt(64);//square root
+val = Math.abs(-3);//absolute num
+val = Math.pow(8, 8);//power
+val = Math.min(2,22,3,1,43,55);//min
+val = Math.max(9,3,33,2,0);//max
+val = Math.random();
+val = Math.random()*20;
+val = Math.floor(Math.random()*20)
 
-//type coercion
-const val1 = String(5);
-const val2 = 6;
-const sum = Number(val1 + val2);
-console.log(sum);
-console.log(typeof sum);
+console.log(val);
