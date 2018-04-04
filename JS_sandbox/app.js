@@ -46,23 +46,65 @@
 // console.log(name);
 
 //const
-const name = 'John';
-console.log(name);
+// const name = 'John';
+// console.log(name);
 //cant reassign
 // name = 'Sara';
 
 //have to assign a value
 // const greeting;
 
-const person = {
-  name: 'John',
-  age: 30
-}
+// const person = {
+//   name: 'John',
+//   age: 30
+// }
 // console.log(person);
-person.name = 'Sara';
-person.age = 32;
+// person.name = 'Sara';
+// person.age = 32;
 // console.log(person);
 
-const numbers = [1,2,3,4,5];
-numbers.push(6);
-console.log(numbers);
+// const numbers = [1,2,3,4,5];
+// numbers.push(6);
+// console.log(numbers);
+
+//PRIMITIVE
+
+//string
+// const name = 'John Doe';
+// console.log(typeof name);
+
+// //number
+// const age = 43;
+// console.log(typeof age);
+
+// //boolean
+// const yeah = true;
+// console.log(typeof yeah);
+
+// //null
+// const car = null;
+// console.log(typeof car);
+
+// //undefined
+// let egg;
+// console.log(typeof egg);
+
+// //symbol
+// const sym = Symbol();
+// console.log(typeof sym);
+
+// //REFERENCE TYPES - objects
+// //Array
+// const hobbies = ['surfing', 'bleh'];
+// console.log(typeof hobbies);
+
+// //Object literal
+// const address = {
+//   city: 'Boston',
+//   state: 'MA'
+// }
+// console.log(typeof address);
+
+// const today = new Date();
+// console.log(today);
+// console.log(typeof today);
