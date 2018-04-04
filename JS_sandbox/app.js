@@ -108,3 +108,39 @@
 // const today = new Date();
 // console.log(today);
 // console.log(typeof today);
+
+//type conversion
+//number to string
+let val;
+val = String(5);
+val = String(4+4);
+//bool to string
+val = String(true);
+//date to string
+val = String(new Date());
+//array to string
+val = String([1,2,3,4]);
+//can also use .toString()
+val = (88).toString();
+
+//string to number
+val = Number('5');
+val = Number(true);
+val = Number(false);
+val = Number(null);
+val = Number('Hello');
+//can also use parseInt();
+val = parseInt('100.30');//no decimals
+val = parseFloat('100.30');//decimals
+
+// console.log(val);
+// console.log(typeof val);
+// // console.log(val.length);
+// console.log(val.toFixed());
+
+//type coercion
+const val1 = String(5);
+const val2 = 6;
+const sum = Number(val1 + val2);
+console.log(sum);
+console.log(typeof sum);
