@@ -145,30 +145,70 @@
 // console.log(sum);
 // console.log(typeof sum);
 
-const num1 = 100;
-const num2 = 50;
-let val;
+// const num1 = 100;
+// const num2 = 50;
+// let val;
 
 //simple math with numbers
-val = num1 + num2;
-val = num1 * num2;
-val = num1 - num2;
-val = num1 / num2;
-val = num1 % num2;
+// 
 
-//Math Object
-val = Math.PI;//pi
-val = Math.E;//Euler's num
-val = Math.round(2.8);//round
-val = Math.ceil(2.4);//round up
-val = Math.floor(2.9);//round down
-val = Math.sqrt(64);//square root
-val = Math.abs(-3);//absolute num
-val = Math.pow(8, 8);//power
-val = Math.min(2,22,3,1,43,55);//min
-val = Math.max(9,3,33,2,0);//max
-val = Math.random();
-val = Math.random()*20;
-val = Math.floor(Math.random()*20)
+// const firstName = 'William';
+// const lastName = 'Johnson';
+// const age = 28;
+// const str = 'Hello there my name is Chris';
+// const tags = 'web dev,cyber security,full stack';
 
-console.log(val);
+// let val;
+
+// val = firstName + lastName;
+// //concatenation
+// val = firstName + ' ' + lastName;
+// //append
+// val = 'Chris ';
+// val += 'Lamothe';
+
+// val = 'Hello my name is ' + firstName + ' and I am ' + age + ' years old.';
+
+// //escaping
+// val = 'That\'s awesome, I can\'t wait';
+
+// //length is a property, so you don't need the //paren like a method
+// val = firstName.length;
+
+// //concat()
+// val = firstName.concat(' ', lastName);
+
+// //change case
+// val = firstName.toUpperCase();
+// val = firstName.toLowerCase();
+
+// val = firstName[0];
+
+// //indexOf()
+// val = firstName.indexOf('l');
+// val = firstName.lastIndexOf('l');
+
+// //charAt()
+// val = firstName.charAt('2');
+
+// //get last char
+// val = firstName.charAt(firstName.length-1);
+
+// //substring()
+// val = firstName.substring(0, 4);
+
+// //slice
+// val = firstName.slice(0, 4);
+// val = firstName.slice(-3);
+
+// //split
+// val = str.split(' ');
+// val = tags.split(',');
+
+// //replace
+// val = str.replace('Chris', 'Luna');
+
+// //includes
+// val = str.includes('foo');
+
+// console.log(val);
