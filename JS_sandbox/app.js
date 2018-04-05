@@ -212,3 +212,30 @@
 // val = str.includes('foo');
 
 // console.log(val);
+
+// const name = 'John';
+// const age = 26;
+// const job = 'Web Developer';
+// const city = 'Miami';
+// let html;
+
+// //without template strings
+// html = '<ul><li>Name: ' + name + '</li><li>Age: ' + age + ' </li><li>Job: ' + job + ' </li><li>City: ' + city + ' </li></ul>';
+
+// function hello(){
+//   return 'hello';
+// }
+// //with template literals
+// html = `
+//   <ul>
+//     <li>Name: ${name}</li>
+//     <li>Age: ${age}</li>
+//     <li>Job: ${job}</li>
+//     <li>City: ${city}</li>
+//     <li>${hello()}</li>
+//     <li>${11 % 2}</li>
+//     <li>${age > 30 ? 'Over 30' : 'Under 30'}</li>
+//   </ul>
+// `;
+
+// document.body.innerHTML = html;
