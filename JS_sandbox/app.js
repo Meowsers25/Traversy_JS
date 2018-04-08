@@ -295,37 +295,59 @@
 // console.log(val);
 
 //object literals
-const person = {
-  firstName: 'Chris',
-  lastName: 'Smith',
-  age: 30,
-  email: 'rocker@bbd.com',
-  hobbies: ['music', 'sports'],
-  address: {//embedded obj
-    city: 'Miami',
-    state: 'FL'
-  },
-  getBirthYear: function(){
-    return 2018 - this.age;//this pertains to obj
-  }
-}
-let val;
-val = person;
-//get specific value
-val = person.firstName;//dot notation
-val = person['firstName'];//bracket notation
-val = person.age;
-val = person.hobbies[1];
-val = person.address.state;//dot
-val = person['address']['city'];//bracket
-val = person.getBirthYear();
-console.log(val);
+// const person = {
+//   firstName: 'Chris',
+//   lastName: 'Smith',
+//   age: 30,
+//   email: 'rocker@bbd.com',
+//   hobbies: ['music', 'sports'],
+//   address: {//embedded obj
+//     city: 'Miami',
+//     state: 'FL'
+//   },
+//   getBirthYear: function(){
+//     return 2018 - this.age;//this pertains to obj
+//   }
+// }
+// let val;
+// val = person;
+// //get specific value
+// val = person.firstName;//dot notation
+// val = person['firstName'];//bracket notation
+// val = person.age;
+// val = person.hobbies[1];
+// val = person.address.state;//dot
+// val = person['address']['city'];//bracket
+// val = person.getBirthYear();
+// console.log(val);
 
-const people = [
-  {name: 'Mike', age: 22},
-  {name: 'John', age: 44},
-  {name: 'Nancy', age: 54}
-];
-for(let i = 0; i < people.length; i++){
-  console.log(people[i].name);
-}
+// const people = [
+//   {name: 'Mike', age: 22},
+//   {name: 'John', age: 44},
+//   {name: 'Nancy', age: 54}
+// ];
+// for(let i = 0; i < people.length; i++){
+//   console.log(people[i].name);
+// }
+
+// let val;
+
+// const today = new Date();
+// const birthday = new Date();
+// val = today.getMonth();//0 based
+// val = today.getDate();
+// val = today.getDay();//0 based starting Sun
+// val = today.getFullYear();
+// val = today.getHours();
+// val = today.getMinutes();
+// val = today.getSeconds();
+// val = today.getMilliseconds();
+// val = today.getTime();//amount of seconds since 1/1/1970
+// birthday.setMonth(2);
+// birthday.setDate(12);
+// birthday.setFullYear(1985);
+// birthday.setHours(3);
+// birthday.setMinutes(30);
+// birthday.setSeconds(25);
+
+// console.log(birthday);
