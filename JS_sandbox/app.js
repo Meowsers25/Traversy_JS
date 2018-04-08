@@ -358,7 +358,7 @@
 // 	do something else;
 // }
 
-const id = 100;
+// const id = 100;
 
 //equal to
 // if (id == 100){
@@ -419,30 +419,75 @@ const id = 100;
 // }
 
 //logical operators
-const name = 'Steve';
-const age = 17;
+// const name = 'Steve';
+// const age = 17;
 
 //and &&
-if(age > 0 && age < 12){
-	console.log(`${name} is a child`);
-}else if(age >= 13 && age <= 19){
-	console.log(`${name} is a teenager`);
-}else{
-	console.log(`${name} is an adult`);
+// if(age > 0 && age < 12){
+// 	console.log(`${name} is a child`);
+// }else if(age >= 13 && age <= 19){
+// 	console.log(`${name} is a teenager`);
+// }else{
+// 	console.log(`${name} is an adult`);
+// }
+
+// //or ||
+// if(age < 16 || age > 65){
+// 	console.log(`${name} can not enter the race`);
+// }else{
+// 	console.log(`${name} can enter the race`);
+// }
+
+// //ternary operator
+// console.log(id === 100 ? 'correct' : 'incorrect');
+
+// //without curly braces
+// if(id === 100)
+// 	console.log('correct');
+// else
+// 	console.log('incorrect');
+
+//switches
+const color = 'orange';
+
+switch(color){
+	case 'red':
+		console.log('Color is red');
+		break;
+	case 'blue':
+		console.log('color is blue');
+		break;
+	case 'yellow':
+		console.log('Color is yellow');
+		break;
+	default:
+		console.log('Color is not red blue or yellow');
+		break;
 }
 
-//or ||
-if(age < 16 || age > 65){
-	console.log(`${name} can not enter the race`);
-}else{
-	console.log(`${name} can enter the race`);
+let day;
+
+switch(new Date().getDay()){
+	case 0:
+		day = 'Sunday';
+		break;
+	case 1:
+		day = 'Monday';
+		break;
+	case 2:
+		day = 'Tuesday';
+		break;
+	case 3:
+		day = 'Wednesday';
+		break;
+	case 4:
+		day = 'Thursday';
+		break;
+	case 5:
+		day = 'Friday';
+		break;
+	case 6:
+		day = 'Saturday';
+		break;
 }
-
-//ternary operator
-console.log(id === 100 ? 'correct' : 'incorrect');
-
-//without curly braces
-if(id === 100)
-	console.log('correct');
-else
-	console.log('incorrect');
+console.log(`Today is ${day}`);
