@@ -522,18 +522,90 @@ const square = function(x){ //usually ananymous
 
 //property methods
 
-const todo = {
-	add: function(){
-		console.log('Add todo...');
-	},
-	edit: function(id){
-		console.log(`Edit todo ${id}`);
-	}
-}
-//can define functions for object outside
-todo.delete = function(){
-	console.log('Delete todo.....')
-}
-todo.add();
-todo.edit(25);
-todo.delete();
+// const todo = {
+// 	add: function(){
+// 		console.log('Add todo...');
+// 	},
+// 	edit: function(id){
+// 		console.log(`Edit todo ${id}`);
+// 	}
+// }
+// //can define functions for object outside
+// todo.delete = function(){
+// 	console.log('Delete todo.....')
+// }
+// todo.add();
+// todo.edit(25);
+// todo.delete();6
+
+//for loop
+
+// for(let i = 0; i < 10; i++){ //declaration of var;condition;iteration
+// 	// console.log(i);
+// 	if(i === 2){
+// 		console.log('2 is my favorite number');
+// 		continue;//stops loop and goes to next iteration
+// 	}
+// 	if(i === 5){
+// 		console.log('Stop the loop');
+// 		break;
+// 	}
+// 	console.log('Number ' + i);
+// }
+
+//while loop
+
+// let i = 0;
+
+// while(i < 10){
+// 	console.log('Number ' + i);
+// 	i++;
+// }
+
+//do while loop
+
+// let i = 0;
+
+// do {
+// 	console.log('Number ' + i);
+// 	i++;
+// }
+
+// while(i < 10);
+
+
+//loop through array
+ const cars = ['Ford', 'Chevy', 'Honda', 'Toyota'];
+
+// for(let i = 0; i < cars.length; i++){
+// 	console.log(cars[i]);
+// }
+
+//.forEach - same as above
+// cars.forEach(function(car, index, array){
+// 	console.log(`${index} : ${car}`);
+// 	console.log(array);
+// });
+
+//map
+// const users = [
+// 	{id:1, name:'John'},
+// 	{id:2, name:'Sara'},
+// 	{id:3, name:'Karen'}
+// ];
+
+// const ids = users.map(function(user){
+// 	return user.id;
+// });
+// console.log(ids);
+
+//for in loop
+// const user = {
+// 	firstName: 'John',
+// 	lastName: 'Doe',
+// 	age: 40
+// }
+
+// for(let x in user){
+// 	console.log(`${x} : ${user[x]}`);
+// }
