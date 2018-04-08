@@ -448,46 +448,92 @@
 // 	console.log('incorrect');
 
 //switches
-const color = 'orange';
+// const color = 'orange';
 
-switch(color){
-	case 'red':
-		console.log('Color is red');
-		break;
-	case 'blue':
-		console.log('color is blue');
-		break;
-	case 'yellow':
-		console.log('Color is yellow');
-		break;
-	default:
-		console.log('Color is not red blue or yellow');
-		break;
+// switch(color){
+// 	case 'red':
+// 		console.log('Color is red');
+// 		break;
+// 	case 'blue':
+// 		console.log('color is blue');
+// 		break;
+// 	case 'yellow':
+// 		console.log('Color is yellow');
+// 		break;
+// 	default:
+// 		console.log('Color is not red blue or yellow');
+// 		break;
+// }
+
+// let day;
+
+// switch(new Date().getDay()){
+// 	case 0:
+// 		day = 'Sunday';
+// 		break;
+// 	case 1:
+// 		day = 'Monday';
+// 		break;
+// 	case 2:
+// 		day = 'Tuesday';
+// 		break;
+// 	case 3:
+// 		day = 'Wednesday';
+// 		break;
+// 	case 4:
+// 		day = 'Thursday';
+// 		break;
+// 	case 5:
+// 		day = 'Friday';
+// 		break;
+// 	case 6:
+// 		day = 'Saturday';
+// 		break;
+// }
+// console.log(`Today is ${day}`);
+
+//function declarations
+// function greet(){
+// 	// console.log('Hello');
+// 	return 'Hello'
+// }
+// console.log(greet());
+
+// function greet(firstName){ //parameter
+// 	return 'Hello ' + firstName;
+// }
+// console.log(greet('Luna'));//'luna' is argument
+
+
+//function expression putting a function as a variable assignment
+const square = function(x){ //usually ananymous
+	return x * x;
+};//semi colon because its a variable
+// console.log(square(8));
+
+//immediately invokable function expressions - IIFE's
+// (function(){
+// 	console.log('IIFE ran...');
+// })();
+
+// (function(x, y){
+// 	console.log(x * y);
+// })(3, 2);
+
+//property methods
+
+const todo = {
+	add: function(){
+		console.log('Add todo...');
+	},
+	edit: function(id){
+		console.log(`Edit todo ${id}`);
+	}
 }
-
-let day;
-
-switch(new Date().getDay()){
-	case 0:
-		day = 'Sunday';
-		break;
-	case 1:
-		day = 'Monday';
-		break;
-	case 2:
-		day = 'Tuesday';
-		break;
-	case 3:
-		day = 'Wednesday';
-		break;
-	case 4:
-		day = 'Thursday';
-		break;
-	case 5:
-		day = 'Friday';
-		break;
-	case 6:
-		day = 'Saturday';
-		break;
+//can define functions for object outside
+todo.delete = function(){
+	console.log('Delete todo.....')
 }
-console.log(`Today is ${day}`);
+todo.add();
+todo.edit(25);
+todo.delete();
