@@ -506,9 +506,9 @@
 
 
 //function expression putting a function as a variable assignment
-const square = function(x){ //usually ananymous
-	return x * x;
-};//semi colon because its a variable
+// const square = function(x){ //usually ananymous
+// 	return x * x;
+// };//semi colon because its a variable
 // console.log(square(8));
 
 //immediately invokable function expressions - IIFE's
@@ -575,7 +575,7 @@ const square = function(x){ //usually ananymous
 
 
 //loop through array
- const cars = ['Ford', 'Chevy', 'Honda', 'Toyota'];
+ // const cars = ['Ford', 'Chevy', 'Honda', 'Toyota'];
 
 // for(let i = 0; i < cars.length; i++){
 // 	console.log(cars[i]);
@@ -609,3 +609,61 @@ const square = function(x){ //usually ananymous
 // for(let x in user){
 // 	console.log(`${x} : ${user[x]}`);
 // }
+
+//window methods / objects/ properties
+
+// console.log(123);
+
+//alert
+// window.alert('Hello world');
+
+//prompt
+// const input = prompt();
+// alert(input);
+
+//confirm
+// if(confirm('Are you sure')){
+// 	console.log('yes');
+// }else{
+// 	console.log('no');
+// }
+
+// let val;
+
+// //outer height and width
+// val = window.outerHeight;
+// val = window.outerWidth;
+
+// //inner height and width
+// val = window.innerHeight;
+// val = window.innerWidth;
+
+// //scroll points
+// val = window.scrollY;
+// val = window.scrollX;
+
+// //location object
+// val = window.location;
+// val = window.location.href;
+
+// //redirect
+// // window.location.href = 'http://google.com';
+
+// //reload
+// // window.location.reload();
+
+//history object
+//window.history.go(-2);
+//val = window.history.length;
+
+//navigator object
+// val = window.navigator;
+// val = window.navigator.appName;
+// val = window.navigator.appVersion;
+// val = window.navigator.userAgent;
+// val = window.navigator.platform;
+// val = window.navigator.vendor;
+// val = window.navigator.language;
+
+
+//  console.log(val);
