@@ -39,10 +39,10 @@
 // // multi word vars use camelCase
 // var firsrName;
 
-//let
+// let
 // let name = 'Jon Doe';
 // console.log(name);
-// name = 'Steve Smith';
+// // name = 'Steve Smith';
 // console.log(name);
 
 //const
