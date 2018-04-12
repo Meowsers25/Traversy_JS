@@ -66,25 +66,73 @@
 
 //document.querySelectorAll()
 
-const items = document.querySelectorAll('li');
+// const items = document.querySelectorAll('li');
 
-//.forEach can be used without having to convert to array because of .querySelectorAll
-items.forEach(function(item, index){
-  item.textContent = `${index} Hello`;
-});
+// //.forEach can be used without having to convert to array because of .querySelectorAll
+// items.forEach(function(item, index){
+//   item.textContent = `${index} Hello`;
+// });
 
-const liOdd = document.querySelectorAll('li:nth-child(odd)');
-const liEven = document.querySelectorAll('li:nth-child(even)');
+// const liOdd = document.querySelectorAll('li:nth-child(odd)');
+// const liEven = document.querySelectorAll('li:nth-child(even)');
 
-liOdd.forEach(function(li, index){
-  li.style.background = 'blue';
-});
+// liOdd.forEach(function(li, index){
+//   li.style.background = 'blue';
+// });
 
-for(let i = 0; i < liEven.length; i++){
-  liEven[i].style.background = 'yellow';
-};
+// for(let i = 0; i < liEven.length; i++){
+//   liEven[i].style.background = 'yellow';
+// };
 
-console.log(items);
+// console.log(items);
+
+//Traversing the DOM
+
+// let val;
+
+// const list = document.querySelector('ul.collection');
+// const listItem = document.querySelector('li.collection-item:first-child');
+
+// val = listItem;
+// val = list;
+
+// //get child nodes-gets all nodes
+// //text nodes are line breaks in console
+// val = list.childNodes;
+
+// //get children element nodes-gets just elements
+// val = list.children;
+// val = list.children[0];
+// val = list.children[1].textContent='Hello';
+
+// //children of children
+// val = list.children[3].children;
+
+// //first child
+// val = list.firstChild;
+// val = list.firstElementChild;
+// val = list.lastChild;
+// val = list.lastElementChild;
+
+// //count child elements
+// val = list.childElementCount;
+
+// //get parent node
+// val = listItem.parentNode;
+// val = listItem.parentElement;
+// val = listItem.parentElement.parentElement;
+
+// //get next sibling
+// val = listItem.nextSibling;
+// val = listItem.nextElementSibling;
+// val = listItem.nextElementSibling.nextElementSibling;
+
+// //get previous sibling
+// val = listItem.previousSibling;
+// val = listItem.previousElementSibling;
+// val = listItem.previousElementSibling.previousElementSibling;
+
+// console.log(val);
 
 
 
